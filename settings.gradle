@@ -1,9 +1,9 @@
 rootProject.name = 'osh-persistence'
 gradle.ext.oshCoreDir = "$rootDir/../osh-core"
 
-// include core build if present locally
-if (new File(gradle.oshCoreDir).exists())
-  includeBuild gradle.oshCoreDir
+// include osh-core build
+// comment this to build against published artifacts
+includeBuild gradle.oshCoreDir
 
 // include all folders with build.gradle as subprojects
 FileTree subprojects = fileTree(rootDir).include('**/build.gradle')
