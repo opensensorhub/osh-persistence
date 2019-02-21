@@ -12,7 +12,7 @@ Copyright (C) 2012-2017 Sensia Software LLC. All Rights Reserved.
  
 ******************************* END LICENSE BLOCK ***************************/
 
-package org.sensorhub.test.persistence.h2;
+package org.sensorhub.impl.persistence.h2;
 
 import java.io.Serializable;
 import org.h2.mvstore.Cursor;
